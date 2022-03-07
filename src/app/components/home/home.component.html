@@ -1,0 +1,11 @@
+<div class="home-logout">
+  <a style="float: right; cursor:pointer;" (click)="logOut()" data-cy="home-logout">Log out</a>
+</div>
+<div>
+  <div class="home-display">
+    <h3 class="home-info">Dear {{client?.firstName}} {{client?.lastName}}</h3>
+    <h3 class="home-info">You are connected and your login infos are :</h3>
+    <div class="home-info">Email : {{client?.email}}</div>
+    <div class="home-info">Id : {{client?._id}}</div>
+  </div>
+</div>

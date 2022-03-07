@@ -1,0 +1,20 @@
+.header{
+  width: 100%;
+  z-index: 2;
+  background: #4d148c;
+  max-height: 75px;
+  position: relative;
+  top: 0;
+  left: 0;
+  transition: .25s;
+}
+
+.logo {
+  display: inline-block;
+  height: auto;
+  width: auto;
+  max-height: 60px;
+  max-width: 88px;
+  position: relative;
+  transition: .25s height ease;
+}
